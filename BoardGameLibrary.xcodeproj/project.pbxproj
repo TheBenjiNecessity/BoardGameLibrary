@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79C25E091AD0C65300FDAD94 /* BoardGameLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79C25E081AD0C65300FDAD94 /* BoardGameLibrary.h */; };
+		79C25E0B1AD0C65300FDAD94 /* BoardGameLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E0A1AD0C65300FDAD94 /* BoardGameLibrary.m */; };
+		79C25E111AD0C65300FDAD94 /* libBoardGameLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C25E051AD0C65300FDAD94 /* libBoardGameLibrary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79C25E121AD0C65300FDAD94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79C25DFD1AD0C65300FDAD94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C25E041AD0C65300FDAD94;
+			remoteInfo = BoardGameLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79C25E031AD0C65300FDAD94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				79C25E091AD0C65300FDAD94 /* BoardGameLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79C25E051AD0C65300FDAD94 /* libBoardGameLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBoardGameLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C25E081AD0C65300FDAD94 /* BoardGameLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardGameLibrary.h; sourceTree = "<group>"; };
+		79C25E0A1AD0C65300FDAD94 /* BoardGameLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoardGameLibrary.m; sourceTree = "<group>"; };
+		79C25E101AD0C65300FDAD94 /* BoardGameLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardGameLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C25E161AD0C65300FDAD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79C25E021AD0C65300FDAD94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C25E0D1AD0C65300FDAD94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C25E111AD0C65300FDAD94 /* libBoardGameLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79C25DFC1AD0C65300FDAD94 = {
+			isa = PBXGroup;
+			children = (
+				79C25E071AD0C65300FDAD94 /* BoardGameLibrary */,
+				79C25E141AD0C65300FDAD94 /* BoardGameLibraryTests */,
+				79C25E061AD0C65300FDAD94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79C25E061AD0C65300FDAD94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79C25E051AD0C65300FDAD94 /* libBoardGameLibrary.a */,
+				79C25E101AD0C65300FDAD94 /* BoardGameLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79C25E071AD0C65300FDAD94 /* BoardGameLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				79C25E081AD0C65300FDAD94 /* BoardGameLibrary.h */,
+				79C25E0A1AD0C65300FDAD94 /* BoardGameLibrary.m */,
+			);
+			path = BoardGameLibrary;
+			sourceTree = "<group>";
+		};
+		79C25E141AD0C65300FDAD94 /* BoardGameLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				79C25E151AD0C65300FDAD94 /* Supporting Files */,
+			);
+			path = BoardGameLibraryTests;
+			sourceTree = "<group>";
+		};
+		79C25E151AD0C65300FDAD94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79C25E161AD0C65300FDAD94 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79C25E041AD0C65300FDAD94 /* BoardGameLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C25E191AD0C65300FDAD94 /* Build configuration list for PBXNativeTarget "BoardGameLibrary" */;
+			buildPhases = (
+				79C25E011AD0C65300FDAD94 /* Sources */,
+				79C25E021AD0C65300FDAD94 /* Frameworks */,
+				79C25E031AD0C65300FDAD94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoardGameLibrary;
+			productName = BoardGameLibrary;
+			productReference = 79C25E051AD0C65300FDAD94 /* libBoardGameLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		79C25E0F1AD0C65300FDAD94 /* BoardGameLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C25E1C1AD0C65300FDAD94 /* Build configuration list for PBXNativeTarget "BoardGameLibraryTests" */;
+			buildPhases = (
+				79C25E0C1AD0C65300FDAD94 /* Sources */,
+				79C25E0D1AD0C65300FDAD94 /* Frameworks */,
+				79C25E0E1AD0C65300FDAD94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79C25E131AD0C65300FDAD94 /* PBXTargetDependency */,
+			);
+			name = BoardGameLibraryTests;
+			productName = BoardGameLibraryTests;
+			productReference = 79C25E101AD0C65300FDAD94 /* BoardGameLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79C25DFD1AD0C65300FDAD94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Benjamin Wishart";
+				TargetAttributes = {
+					79C25E041AD0C65300FDAD94 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					79C25E0F1AD0C65300FDAD94 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 79C25E001AD0C65300FDAD94 /* Build configuration list for PBXProject "BoardGameLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79C25DFC1AD0C65300FDAD94;
+			productRefGroup = 79C25E061AD0C65300FDAD94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C25E041AD0C65300FDAD94 /* BoardGameLibrary */,
+				79C25E0F1AD0C65300FDAD94 /* BoardGameLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79C25E0E1AD0C65300FDAD94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79C25E011AD0C65300FDAD94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C25E0B1AD0C65300FDAD94 /* BoardGameLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C25E0C1AD0C65300FDAD94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79C25E131AD0C65300FDAD94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79C25E041AD0C65300FDAD94 /* BoardGameLibrary */;
+			targetProxy = 79C25E121AD0C65300FDAD94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79C25E171AD0C65300FDAD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79C25E181AD0C65300FDAD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79C25E1A1AD0C65300FDAD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79C25E1B1AD0C65300FDAD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		79C25E1D1AD0C65300FDAD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BoardGameLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79C25E1E1AD0C65300FDAD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BoardGameLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79C25E001AD0C65300FDAD94 /* Build configuration list for PBXProject "BoardGameLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C25E171AD0C65300FDAD94 /* Debug */,
+				79C25E181AD0C65300FDAD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C25E191AD0C65300FDAD94 /* Build configuration list for PBXNativeTarget "BoardGameLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C25E1A1AD0C65300FDAD94 /* Debug */,
+				79C25E1B1AD0C65300FDAD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79C25E1C1AD0C65300FDAD94 /* Build configuration list for PBXNativeTarget "BoardGameLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C25E1D1AD0C65300FDAD94 /* Debug */,
+				79C25E1E1AD0C65300FDAD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79C25DFD1AD0C65300FDAD94 /* Project object */;
+}

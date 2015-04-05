@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <BoardGameLibrary/BGCollection.h>
 
 @interface BoardGameLibrary : NSObject
 

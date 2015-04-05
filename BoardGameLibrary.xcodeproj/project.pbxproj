@@ -8,8 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		79C25E091AD0C65300FDAD94 /* BoardGameLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79C25E081AD0C65300FDAD94 /* BoardGameLibrary.h */; };
-		79C25E0B1AD0C65300FDAD94 /* BoardGameLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E0A1AD0C65300FDAD94 /* BoardGameLibrary.m */; };
 		79C25E111AD0C65300FDAD94 /* libBoardGameLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C25E051AD0C65300FDAD94 /* libBoardGameLibrary.a */; };
+		79C25E201AD0C7D700FDAD94 /* BoardGameLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E081AD0C65300FDAD94 /* BoardGameLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E4B1AD0C84600FDAD94 /* BGCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E211AD0C84500FDAD94 /* BGCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E4C1AD0C84600FDAD94 /* BGCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E221AD0C84500FDAD94 /* BGCollection.m */; };
+		79C25E4D1AD0C84600FDAD94 /* BGCost.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E231AD0C84500FDAD94 /* BGCost.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E4E1AD0C84600FDAD94 /* BGCost.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E241AD0C84500FDAD94 /* BGCost.m */; };
+		79C25E4F1AD0C84600FDAD94 /* BGItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E251AD0C84500FDAD94 /* BGItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E501AD0C84600FDAD94 /* BGPiece.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E261AD0C84500FDAD94 /* BGPiece.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E511AD0C84600FDAD94 /* BGPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E271AD0C84500FDAD94 /* BGPiece.m */; };
+		79C25E521AD0C84600FDAD94 /* BGPlayerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E281AD0C84500FDAD94 /* BGPlayerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E531AD0C84600FDAD94 /* BGRequirement.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E291AD0C84500FDAD94 /* BGRequirement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E541AD0C84600FDAD94 /* BGRequirement.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E2A1AD0C84500FDAD94 /* BGRequirement.m */; };
+		79C25E551AD0C84600FDAD94 /* BGReward.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E2B1AD0C84500FDAD94 /* BGReward.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E561AD0C84600FDAD94 /* BGReward.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E2C1AD0C84500FDAD94 /* BGReward.m */; };
+		79C25E571AD0C84600FDAD94 /* BGTrade.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E2D1AD0C84500FDAD94 /* BGTrade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E581AD0C84600FDAD94 /* BGTrade.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E2E1AD0C84500FDAD94 /* BGTrade.m */; };
+		79C25E591AD0C84600FDAD94 /* Board.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E2F1AD0C84500FDAD94 /* Board.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E5A1AD0C84600FDAD94 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E301AD0C84500FDAD94 /* Board.m */; };
+		79C25E5B1AD0C84600FDAD94 /* BoardGameFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E311AD0C84500FDAD94 /* BoardGameFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E5C1AD0C84600FDAD94 /* Card.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E321AD0C84500FDAD94 /* Card.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E5D1AD0C84600FDAD94 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E331AD0C84500FDAD94 /* Card.m */; };
+		79C25E5E1AD0C84600FDAD94 /* CardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E341AD0C84500FDAD94 /* CardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E5F1AD0C84600FDAD94 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E351AD0C84500FDAD94 /* CardView.m */; };
+		79C25E601AD0C84600FDAD94 /* Deck.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E361AD0C84500FDAD94 /* Deck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E611AD0C84600FDAD94 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E371AD0C84500FDAD94 /* Deck.m */; };
+		79C25E621AD0C84600FDAD94 /* Dice.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E381AD0C84500FDAD94 /* Dice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E631AD0C84600FDAD94 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E391AD0C84500FDAD94 /* Dice.m */; };
+		79C25E641AD0C84600FDAD94 /* DraggableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E3A1AD0C84500FDAD94 /* DraggableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E651AD0C84600FDAD94 /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E3B1AD0C84500FDAD94 /* DraggableView.m */; };
+		79C25E661AD0C84600FDAD94 /* Hand.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E3C1AD0C84500FDAD94 /* Hand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E671AD0C84600FDAD94 /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E3D1AD0C84500FDAD94 /* Hand.m */; };
+		79C25E681AD0C84600FDAD94 /* Hexagon.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E3E1AD0C84500FDAD94 /* Hexagon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E691AD0C84600FDAD94 /* Hexagon.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E3F1AD0C84500FDAD94 /* Hexagon.m */; };
+		79C25E6A1AD0C84600FDAD94 /* HexagonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E401AD0C84600FDAD94 /* HexagonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E6B1AD0C84600FDAD94 /* HexagonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E411AD0C84600FDAD94 /* HexagonView.m */; };
+		79C25E6C1AD0C84600FDAD94 /* NumberView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E431AD0C84600FDAD94 /* NumberView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E6D1AD0C84600FDAD94 /* NumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E441AD0C84600FDAD94 /* NumberView.m */; };
+		79C25E6E1AD0C84600FDAD94 /* Player.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E451AD0C84600FDAD94 /* Player.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E6F1AD0C84600FDAD94 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E461AD0C84600FDAD94 /* Player.m */; };
+		79C25E701AD0C84600FDAD94 /* SlotCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E471AD0C84600FDAD94 /* SlotCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E711AD0C84600FDAD94 /* SlotCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E481AD0C84600FDAD94 /* SlotCollectionView.m */; };
+		79C25E721AD0C84600FDAD94 /* SlotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E491AD0C84600FDAD94 /* SlotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C25E731AD0C84600FDAD94 /* SlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E4A1AD0C84600FDAD94 /* SlotView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +79,50 @@
 /* Begin PBXFileReference section */
 		79C25E051AD0C65300FDAD94 /* libBoardGameLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBoardGameLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C25E081AD0C65300FDAD94 /* BoardGameLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardGameLibrary.h; sourceTree = "<group>"; };
-		79C25E0A1AD0C65300FDAD94 /* BoardGameLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoardGameLibrary.m; sourceTree = "<group>"; };
 		79C25E101AD0C65300FDAD94 /* BoardGameLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardGameLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C25E161AD0C65300FDAD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C25E211AD0C84500FDAD94 /* BGCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGCollection.h; sourceTree = "<group>"; };
+		79C25E221AD0C84500FDAD94 /* BGCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGCollection.m; sourceTree = "<group>"; };
+		79C25E231AD0C84500FDAD94 /* BGCost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGCost.h; sourceTree = "<group>"; };
+		79C25E241AD0C84500FDAD94 /* BGCost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGCost.m; sourceTree = "<group>"; };
+		79C25E251AD0C84500FDAD94 /* BGItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGItem.h; sourceTree = "<group>"; };
+		79C25E261AD0C84500FDAD94 /* BGPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGPiece.h; sourceTree = "<group>"; };
+		79C25E271AD0C84500FDAD94 /* BGPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGPiece.m; sourceTree = "<group>"; };
+		79C25E281AD0C84500FDAD94 /* BGPlayerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGPlayerItem.h; sourceTree = "<group>"; };
+		79C25E291AD0C84500FDAD94 /* BGRequirement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGRequirement.h; sourceTree = "<group>"; };
+		79C25E2A1AD0C84500FDAD94 /* BGRequirement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGRequirement.m; sourceTree = "<group>"; };
+		79C25E2B1AD0C84500FDAD94 /* BGReward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGReward.h; sourceTree = "<group>"; };
+		79C25E2C1AD0C84500FDAD94 /* BGReward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGReward.m; sourceTree = "<group>"; };
+		79C25E2D1AD0C84500FDAD94 /* BGTrade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGTrade.h; sourceTree = "<group>"; };
+		79C25E2E1AD0C84500FDAD94 /* BGTrade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGTrade.m; sourceTree = "<group>"; };
+		79C25E2F1AD0C84500FDAD94 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		79C25E301AD0C84500FDAD94 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		79C25E311AD0C84500FDAD94 /* BoardGameFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardGameFramework.h; sourceTree = "<group>"; };
+		79C25E321AD0C84500FDAD94 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		79C25E331AD0C84500FDAD94 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		79C25E341AD0C84500FDAD94 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		79C25E351AD0C84500FDAD94 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		79C25E361AD0C84500FDAD94 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		79C25E371AD0C84500FDAD94 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		79C25E381AD0C84500FDAD94 /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		79C25E391AD0C84500FDAD94 /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		79C25E3A1AD0C84500FDAD94 /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		79C25E3B1AD0C84500FDAD94 /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		79C25E3C1AD0C84500FDAD94 /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		79C25E3D1AD0C84500FDAD94 /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
+		79C25E3E1AD0C84500FDAD94 /* Hexagon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hexagon.h; sourceTree = "<group>"; };
+		79C25E3F1AD0C84500FDAD94 /* Hexagon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hexagon.m; sourceTree = "<group>"; };
+		79C25E401AD0C84600FDAD94 /* HexagonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexagonView.h; sourceTree = "<group>"; };
+		79C25E411AD0C84600FDAD94 /* HexagonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexagonView.m; sourceTree = "<group>"; };
+		79C25E421AD0C84600FDAD94 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C25E431AD0C84600FDAD94 /* NumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberView.h; sourceTree = "<group>"; };
+		79C25E441AD0C84600FDAD94 /* NumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberView.m; sourceTree = "<group>"; };
+		79C25E451AD0C84600FDAD94 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		79C25E461AD0C84600FDAD94 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		79C25E471AD0C84600FDAD94 /* SlotCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotCollectionView.h; sourceTree = "<group>"; };
+		79C25E481AD0C84600FDAD94 /* SlotCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotCollectionView.m; sourceTree = "<group>"; };
+		79C25E491AD0C84600FDAD94 /* SlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotView.h; sourceTree = "<group>"; };
+		79C25E4A1AD0C84600FDAD94 /* SlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +166,48 @@
 			isa = PBXGroup;
 			children = (
 				79C25E081AD0C65300FDAD94 /* BoardGameLibrary.h */,
-				79C25E0A1AD0C65300FDAD94 /* BoardGameLibrary.m */,
+				79C25E211AD0C84500FDAD94 /* BGCollection.h */,
+				79C25E221AD0C84500FDAD94 /* BGCollection.m */,
+				79C25E231AD0C84500FDAD94 /* BGCost.h */,
+				79C25E241AD0C84500FDAD94 /* BGCost.m */,
+				79C25E251AD0C84500FDAD94 /* BGItem.h */,
+				79C25E261AD0C84500FDAD94 /* BGPiece.h */,
+				79C25E271AD0C84500FDAD94 /* BGPiece.m */,
+				79C25E281AD0C84500FDAD94 /* BGPlayerItem.h */,
+				79C25E291AD0C84500FDAD94 /* BGRequirement.h */,
+				79C25E2A1AD0C84500FDAD94 /* BGRequirement.m */,
+				79C25E2B1AD0C84500FDAD94 /* BGReward.h */,
+				79C25E2C1AD0C84500FDAD94 /* BGReward.m */,
+				79C25E2D1AD0C84500FDAD94 /* BGTrade.h */,
+				79C25E2E1AD0C84500FDAD94 /* BGTrade.m */,
+				79C25E2F1AD0C84500FDAD94 /* Board.h */,
+				79C25E301AD0C84500FDAD94 /* Board.m */,
+				79C25E311AD0C84500FDAD94 /* BoardGameFramework.h */,
+				79C25E321AD0C84500FDAD94 /* Card.h */,
+				79C25E331AD0C84500FDAD94 /* Card.m */,
+				79C25E341AD0C84500FDAD94 /* CardView.h */,
+				79C25E351AD0C84500FDAD94 /* CardView.m */,
+				79C25E361AD0C84500FDAD94 /* Deck.h */,
+				79C25E371AD0C84500FDAD94 /* Deck.m */,
+				79C25E381AD0C84500FDAD94 /* Dice.h */,
+				79C25E391AD0C84500FDAD94 /* Dice.m */,
+				79C25E3A1AD0C84500FDAD94 /* DraggableView.h */,
+				79C25E3B1AD0C84500FDAD94 /* DraggableView.m */,
+				79C25E3C1AD0C84500FDAD94 /* Hand.h */,
+				79C25E3D1AD0C84500FDAD94 /* Hand.m */,
+				79C25E3E1AD0C84500FDAD94 /* Hexagon.h */,
+				79C25E3F1AD0C84500FDAD94 /* Hexagon.m */,
+				79C25E401AD0C84600FDAD94 /* HexagonView.h */,
+				79C25E411AD0C84600FDAD94 /* HexagonView.m */,
+				79C25E421AD0C84600FDAD94 /* Info.plist */,
+				79C25E431AD0C84600FDAD94 /* NumberView.h */,
+				79C25E441AD0C84600FDAD94 /* NumberView.m */,
+				79C25E451AD0C84600FDAD94 /* Player.h */,
+				79C25E461AD0C84600FDAD94 /* Player.m */,
+				79C25E471AD0C84600FDAD94 /* SlotCollectionView.h */,
+				79C25E481AD0C84600FDAD94 /* SlotCollectionView.m */,
+				79C25E491AD0C84600FDAD94 /* SlotView.h */,
+				79C25E4A1AD0C84600FDAD94 /* SlotView.m */,
 			);
 			path = BoardGameLibrary;
 			sourceTree = "<group>";
@@ -107,6 +230,39 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		79C25E1F1AD0C7B800FDAD94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C25E4D1AD0C84600FDAD94 /* BGCost.h in Headers */,
+				79C25E521AD0C84600FDAD94 /* BGPlayerItem.h in Headers */,
+				79C25E5E1AD0C84600FDAD94 /* CardView.h in Headers */,
+				79C25E201AD0C7D700FDAD94 /* BoardGameLibrary.h in Headers */,
+				79C25E5B1AD0C84600FDAD94 /* BoardGameFramework.h in Headers */,
+				79C25E621AD0C84600FDAD94 /* Dice.h in Headers */,
+				79C25E6C1AD0C84600FDAD94 /* NumberView.h in Headers */,
+				79C25E601AD0C84600FDAD94 /* Deck.h in Headers */,
+				79C25E4F1AD0C84600FDAD94 /* BGItem.h in Headers */,
+				79C25E701AD0C84600FDAD94 /* SlotCollectionView.h in Headers */,
+				79C25E4B1AD0C84600FDAD94 /* BGCollection.h in Headers */,
+				79C25E661AD0C84600FDAD94 /* Hand.h in Headers */,
+				79C25E641AD0C84600FDAD94 /* DraggableView.h in Headers */,
+				79C25E571AD0C84600FDAD94 /* BGTrade.h in Headers */,
+				79C25E531AD0C84600FDAD94 /* BGRequirement.h in Headers */,
+				79C25E551AD0C84600FDAD94 /* BGReward.h in Headers */,
+				79C25E6E1AD0C84600FDAD94 /* Player.h in Headers */,
+				79C25E501AD0C84600FDAD94 /* BGPiece.h in Headers */,
+				79C25E721AD0C84600FDAD94 /* SlotView.h in Headers */,
+				79C25E681AD0C84600FDAD94 /* Hexagon.h in Headers */,
+				79C25E6A1AD0C84600FDAD94 /* HexagonView.h in Headers */,
+				79C25E5C1AD0C84600FDAD94 /* Card.h in Headers */,
+				79C25E591AD0C84600FDAD94 /* Board.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		79C25E041AD0C65300FDAD94 /* BoardGameLibrary */ = {
 			isa = PBXNativeTarget;
@@ -115,6 +271,7 @@
 				79C25E011AD0C65300FDAD94 /* Sources */,
 				79C25E021AD0C65300FDAD94 /* Frameworks */,
 				79C25E031AD0C65300FDAD94 /* CopyFiles */,
+				79C25E1F1AD0C7B800FDAD94 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -193,7 +350,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79C25E0B1AD0C65300FDAD94 /* BoardGameLibrary.m in Sources */,
+				79C25E671AD0C84600FDAD94 /* Hand.m in Sources */,
+				79C25E611AD0C84600FDAD94 /* Deck.m in Sources */,
+				79C25E691AD0C84600FDAD94 /* Hexagon.m in Sources */,
+				79C25E5A1AD0C84600FDAD94 /* Board.m in Sources */,
+				79C25E541AD0C84600FDAD94 /* BGRequirement.m in Sources */,
+				79C25E4C1AD0C84600FDAD94 /* BGCollection.m in Sources */,
+				79C25E711AD0C84600FDAD94 /* SlotCollectionView.m in Sources */,
+				79C25E631AD0C84600FDAD94 /* Dice.m in Sources */,
+				79C25E5D1AD0C84600FDAD94 /* Card.m in Sources */,
+				79C25E6B1AD0C84600FDAD94 /* HexagonView.m in Sources */,
+				79C25E651AD0C84600FDAD94 /* DraggableView.m in Sources */,
+				79C25E4E1AD0C84600FDAD94 /* BGCost.m in Sources */,
+				79C25E6D1AD0C84600FDAD94 /* NumberView.m in Sources */,
+				79C25E6F1AD0C84600FDAD94 /* Player.m in Sources */,
+				79C25E511AD0C84600FDAD94 /* BGPiece.m in Sources */,
+				79C25E5F1AD0C84600FDAD94 /* CardView.m in Sources */,
+				79C25E561AD0C84600FDAD94 /* BGReward.m in Sources */,
+				79C25E581AD0C84600FDAD94 /* BGTrade.m in Sources */,
+				79C25E731AD0C84600FDAD94 /* SlotView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,18 +467,24 @@
 		79C25E1A1AD0C65300FDAD94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Debug;
 		};
 		79C25E1B1AD0C65300FDAD94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Release;
 		};

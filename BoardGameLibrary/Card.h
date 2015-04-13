@@ -23,10 +23,11 @@
 
 @interface Card : NSObject <BGItem>
 
-@property (nonatomic) BOOL shouldBeUnique;
+@property (nonatomic, readonly) BOOL shouldBeUnique;
 @property (nonatomic) NSUInteger *identifier;
 
--(id)initWithDisplayTitle: (NSString *)title description:(NSString *) description;
+-(id)initWithDisplayTitle: (NSString *)title
+              description: (NSString *)description;
 
 /*
  How would this work?
@@ -35,6 +36,8 @@
  playing cards
  magic cards
  robolines cards
+ instruction cards
+ simple image cards (a card with a big number on it)
  
  What do they have in common?
  front image

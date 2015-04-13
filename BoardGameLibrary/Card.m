@@ -12,7 +12,8 @@
 @synthesize displayTitle;
 @synthesize displayDescription;
 
--(id)initWithDisplayTitle:(NSString *)title description:(NSString *)description
+-(id)initWithDisplayTitle:(NSString *)title
+              description:(NSString *)description
 {
     if (self = [super init])
     {

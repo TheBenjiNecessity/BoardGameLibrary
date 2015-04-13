@@ -51,6 +51,10 @@
 		79C25E711AD0C84600FDAD94 /* SlotCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E481AD0C84600FDAD94 /* SlotCollectionView.m */; };
 		79C25E721AD0C84600FDAD94 /* SlotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C25E491AD0C84600FDAD94 /* SlotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79C25E731AD0C84600FDAD94 /* SlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C25E4A1AD0C84600FDAD94 /* SlotView.m */; };
+		79D89B421ADC343600ECA130 /* BGBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D89B401ADC343600ECA130 /* BGBoardView.h */; };
+		79D89B431ADC343600ECA130 /* BGBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D89B411ADC343600ECA130 /* BGBoardView.m */; };
+		79D89B461ADC45C900ECA130 /* QuadTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D89B441ADC45C900ECA130 /* QuadTree.h */; };
+		79D89B471ADC45C900ECA130 /* QuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D89B451ADC45C900ECA130 /* QuadTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +127,10 @@
 		79C25E481AD0C84600FDAD94 /* SlotCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotCollectionView.m; sourceTree = "<group>"; };
 		79C25E491AD0C84600FDAD94 /* SlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotView.h; sourceTree = "<group>"; };
 		79C25E4A1AD0C84600FDAD94 /* SlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotView.m; sourceTree = "<group>"; };
+		79D89B401ADC343600ECA130 /* BGBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGBoardView.h; sourceTree = "<group>"; };
+		79D89B411ADC343600ECA130 /* BGBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGBoardView.m; sourceTree = "<group>"; };
+		79D89B441ADC45C900ECA130 /* QuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadTree.h; sourceTree = "<group>"; };
+		79D89B451ADC45C900ECA130 /* QuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +186,8 @@
 				79C25E2A1AD0C84500FDAD94 /* BGRequirement.m */,
 				79C25E2B1AD0C84500FDAD94 /* BGReward.h */,
 				79C25E2C1AD0C84500FDAD94 /* BGReward.m */,
+				79D89B441ADC45C900ECA130 /* QuadTree.h */,
+				79D89B451ADC45C900ECA130 /* QuadTree.m */,
 				79C25E2D1AD0C84500FDAD94 /* BGTrade.h */,
 				79C25E2E1AD0C84500FDAD94 /* BGTrade.m */,
 				79C25E2F1AD0C84500FDAD94 /* Board.h */,
@@ -185,6 +195,8 @@
 				79C25E311AD0C84500FDAD94 /* BoardGameFramework.h */,
 				79C25E321AD0C84500FDAD94 /* Card.h */,
 				79C25E331AD0C84500FDAD94 /* Card.m */,
+				79D89B401ADC343600ECA130 /* BGBoardView.h */,
+				79D89B411ADC343600ECA130 /* BGBoardView.m */,
 				79C25E341AD0C84500FDAD94 /* CardView.h */,
 				79C25E351AD0C84500FDAD94 /* CardView.m */,
 				79C25E361AD0C84500FDAD94 /* Deck.h */,
@@ -235,6 +247,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D89B461ADC45C900ECA130 /* QuadTree.h in Headers */,
 				79C25E4D1AD0C84600FDAD94 /* BGCost.h in Headers */,
 				79C25E521AD0C84600FDAD94 /* BGPlayerItem.h in Headers */,
 				79C25E5E1AD0C84600FDAD94 /* CardView.h in Headers */,
@@ -258,6 +271,7 @@
 				79C25E6A1AD0C84600FDAD94 /* HexagonView.h in Headers */,
 				79C25E5C1AD0C84600FDAD94 /* Card.h in Headers */,
 				79C25E591AD0C84600FDAD94 /* Board.h in Headers */,
+				79D89B421ADC343600ECA130 /* BGBoardView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,8 +370,10 @@
 				79C25E5A1AD0C84600FDAD94 /* Board.m in Sources */,
 				79C25E541AD0C84600FDAD94 /* BGRequirement.m in Sources */,
 				79C25E4C1AD0C84600FDAD94 /* BGCollection.m in Sources */,
+				79D89B471ADC45C900ECA130 /* QuadTree.m in Sources */,
 				79C25E711AD0C84600FDAD94 /* SlotCollectionView.m in Sources */,
 				79C25E631AD0C84600FDAD94 /* Dice.m in Sources */,
+				79D89B431ADC343600ECA130 /* BGBoardView.m in Sources */,
 				79C25E5D1AD0C84600FDAD94 /* Card.m in Sources */,
 				79C25E6B1AD0C84600FDAD94 /* HexagonView.m in Sources */,
 				79C25E651AD0C84600FDAD94 /* DraggableView.m in Sources */,
@@ -467,6 +483,7 @@
 		79C25E1A1AD0C65300FDAD94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEAD_CODE_STRIPPING = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -479,6 +496,7 @@
 		79C25E1B1AD0C65300FDAD94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEAD_CODE_STRIPPING = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,6 +509,7 @@
 		79C25E1D1AD0C65300FDAD94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -508,6 +527,7 @@
 		79C25E1E1AD0C65300FDAD94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -537,6 +557,7 @@
 				79C25E1B1AD0C65300FDAD94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79C25E1C1AD0C65300FDAD94 /* Build configuration list for PBXNativeTarget "BoardGameLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +566,7 @@
 				79C25E1E1AD0C65300FDAD94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
